@@ -1,4 +1,4 @@
-package org.homelab.mvc.controlers;
+package org.homelab.mvc.controlers.error;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;

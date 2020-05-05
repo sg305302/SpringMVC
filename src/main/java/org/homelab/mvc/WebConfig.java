@@ -10,7 +10,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 @ComponentScan("org.homelab.mvc")
 public class WebConfig implements WebMvcConfigurer {
-
     @Override
     public void  configureViewResolvers(ViewResolverRegistry registry) {
         registry.jsp();

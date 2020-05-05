@@ -9,7 +9,9 @@
 </head>
 <body>
 	<div style="text-align:center">
+	    <a href="login">Login</a>
 		<a href="register">Register</a>
+		<a href="products/ALL">Products</a>
 	</div>
 	<h1>Hello ${nick}</h1>
 	<ul>

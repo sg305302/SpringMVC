@@ -1,12 +1,14 @@
 package org.homelab.mvc.validator;
 
 import org.homelab.mvc.pojo.User;
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@Component
 public class UserValidator implements Validator {
 
     @Override
