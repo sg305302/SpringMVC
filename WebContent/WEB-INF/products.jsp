@@ -21,9 +21,9 @@
 	</div>
 	<h1 style="margin: 30px">Kategoria: ${category}</h1>
 	<div style="margin: 30px">
-	<a href="http://localhost:8088/SpringMVC/products/ALL;sortBy=name">Sort all by product name</a>
+	<a href="ALL;sortBy=name">Sort all by product name</a>
 	<br />
-	<a href="http://localhost:8088/SpringMVC/products/ALL;sortBy=name,category">Sort all by product name and category</a>
+	<a href="ALL;sortBy=name,category">Sort all by product name and category</a>
 	</div>
 	<div style="margin: 30px">
 		<table class="table table-bordered" style="width: 500px">
