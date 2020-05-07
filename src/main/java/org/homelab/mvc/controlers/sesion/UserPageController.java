@@ -13,14 +13,12 @@ public class UserPageController {
 
     @GetMapping(value = "/user_page")
     public String userPage(Model model, @SessionAttribute("loggedUser") User user) {
-
         model.addAttribute("usr",user);
         return "user_page";
     }
 
     @ExceptionHandler(ServletRequestBindingException.class)
     public String handle() {
-
         return "redirect:/login";
     }
 }

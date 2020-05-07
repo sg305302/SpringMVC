@@ -19,6 +19,5 @@ public class HomeControler {
         model.addAttribute("poductList", productList);
         model.addAttribute("nick", "jan");
             return "home";
-
     }
 }

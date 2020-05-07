@@ -11,7 +11,6 @@
 <title>User Page</title>
 </head>
 <body>
-Zalogowany jako : ${usr.userName} <a href="logout" class="btn btn-warning">Logout</a>
-
+    Zalogowany jako : ${usr.userName} <a href="logout" class="btn btn-warning">Logout</a>
 </body>
 </html>

@@ -13,7 +13,6 @@
 <body>
 	<div style="margin: auto; width: 500px; padding-top: 50px">
 		<form:form method="post" modelAttribute="user">
-
 			<div class="form-group">
 				<label>User Name</label>
 				<form:input path="userName" placeholder="User Name" type="text" class="form-control" />

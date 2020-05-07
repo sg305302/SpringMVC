@@ -13,17 +13,14 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 @SessionAttributes("loggedUser")
 public class LoginController {
 
-
     @PostMapping(value = "/login")
     public String postLogin(Model model, @ModelAttribute("user") User user) {
-
         model.addAttribute("loggedUser", user);
         return "redirect:user_page"; //redirect po to aby wywołał się kontroler
     }
 
     @GetMapping(value = "/login")
     public String login(Model model) {
-
         model.addAttribute("user", new User());
         return "login";
     }

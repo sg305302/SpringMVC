@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class RegisterController {
 
-
     @Autowired
     UserValidator userValidator;
 
@@ -35,7 +34,6 @@ public class RegisterController {
 
     @GetMapping(value = "/register")
     public String register(Model model) {
-
         model.addAttribute("user", new User());
         return "register";
     }
